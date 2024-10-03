@@ -1,9 +1,7 @@
 
-def table_multiplication():
-    nombre = int(input("Enter a number: "))
+def table_multiplication(nombre, maximum):
     i = 1
 
-    while i <= 10:
+    for i in range(1, maximum + 1):
         print(f"{i} * {nombre} : {i * nombre}")
-        i += 1
 table_multiplication()
