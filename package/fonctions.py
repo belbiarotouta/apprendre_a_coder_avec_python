@@ -1,4 +1,3 @@
-
 def table_multiplication(nombre: int, maximum: int = 10) -> int:
     """Fonction affichant la table de multiplication par nombre.
 
@@ -9,4 +8,3 @@ def table_multiplication(nombre: int, maximum: int = 10) -> int:
     """
     for i in range(1, maximum + 1):
         print(f"{i} * {nombre} : {i * nombre}")
-table_multiplication(3)
