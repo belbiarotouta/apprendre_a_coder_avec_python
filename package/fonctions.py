@@ -6,5 +6,6 @@ def table_multiplication(nombre: int, maximum: int = 10) -> int:
         maximum (int, optionnel) : afficher la table de 1 à maximum.
 
     """
+    assert maximum > 0
     for i in range(1, maximum + 1):
         print(f"{i} * {nombre} : {i * nombre}")
