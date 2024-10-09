@@ -1,3 +1,5 @@
+numerateur = 2
+denominateur = 10
 try:
     resultat = numerateur / denominateur
 except NameError:
